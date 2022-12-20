@@ -8,9 +8,7 @@
     }
 }
 
-.navbar-nav > li{
-    margin-right: 30px;
-}
+
 
 .active > a{
     color: white !important;
