@@ -1,0 +1,65 @@
+:root{
+  --white1: #ffffff;
+  --white2: #e6eef8;
+  --black1: #000;
+  --black2: #121212;
+}
+
+:root {
+  background-color: var(--white2);
+  color: var(--black1);
+}
+
+html,body,#root{
+  height: 100%;
+  margin: 0px;
+}
+
+html{
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* app layout: header + content; content fills remaining viewport */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1 1 auto; /* take remaining space under the sticky header */
+  display: flex;
+  flex-direction: column;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+hr {
+  width: 100%;
+}
+
+@media (max-width: 820px) {
+  .card {
+    min-width: unset !important;
+    min-height: unset !important;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
+}

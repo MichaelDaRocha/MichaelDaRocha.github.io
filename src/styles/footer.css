@@ -1,0 +1,87 @@
+/* ...existing code... */
+
+.footer {
+  position: relative; /* allow centering absolutely */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 1.25rem;
+  background: grey;
+  color: var(--white2, #e6eef8);
+  border-top: 1px solid rgba(255,255,255,0.03);
+  justify-content: space-between; /* keep left/right at ends */
+}
+
+/* left / center / right areas */
+.footer-left,
+.footer-center,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* center is absolutely centered within the footer */
+.footer-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  flex: 0 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/* keep left and right hugging the ends */
+.footer-left,
+.footer-right {
+  flex: 0 0 auto;
+  z-index: 1; /* keep above centered element if overlap */
+}
+
+/* social icons */
+.social-icon {
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: inherit;
+  transition: color 160ms ease, transform 120ms ease;
+}
+.social-icon:hover,
+.social-icon:focus {
+  color: var(--accent, #3b82f6);
+  transform: translateY(-2px);
+}
+
+/* footer logo */
+.footer-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+/* responsive: stack vertically on small screens and disable absolute centering */
+@media (max-width: 560px) {
+  .footer {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .footer-center {
+    position: static;
+    transform: none;
+    order: 2;
+    width: 100%;
+  }
+  .footer-left,
+  .footer-right {
+    order: 1;
+    width: fit-content;
+    justify-content: center;
+  }
+
+  .footer-center > p {
+    margin-top: 0;
+  }
+}
+/* ...existing code... */

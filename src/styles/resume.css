@@ -1,0 +1,31 @@
+.card-section {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+section > p {
+    margin: 0px;
+    font-size: 1em;
+}
+
+.card-header {
+    margin: -18px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.education{
+    background-image: url('../resources/images/education.svg');
+    background-size: cover;
+}
+
+.experience{
+    background-image: url('../resources/images/experience.svg');
+    background-size: cover;
+}
+
+.skills{
+    background-image: url('../resources/images/skills.svg');
+    background-size: cover;
+}
