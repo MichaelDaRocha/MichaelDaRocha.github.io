@@ -10,7 +10,7 @@ export default function Experience() {
 
             <div className="card-content">
                 <section aria-labelledby="capital-one">
-                    <h2 id="capital-one" className="card-section">Capital One</h2>
+                    <h2 id="capital-one" className="card-section">Capital One Financial Corporation</h2>
                     <p>Associate Software Engineer</p>
                     <p>November 2024 - Present</p>
                     <p>Toronto, ON, Canada</p>
@@ -24,7 +24,7 @@ export default function Experience() {
                 </section>
 
                 <section aria-labelledby="toyota">
-                    <h2 id="toyota" className="card-section">Toyota</h2>
+                    <h2 id="toyota" className="card-section">Toyota Motor Manufacturing Canada</h2>
                     <p>Co-op Analyst – Systems Engineering</p>
                     <p>September 2021 - March 2022</p>
                     <p>Cambridge, ON, Canada</p>
@@ -40,7 +40,7 @@ export default function Experience() {
 
             <footer className="card-footer">
                 <p className="margin-0">
-                    Last Updated: 11/9/2025
+                    Last Updated: 11/16/2025
                 </p>
             </footer>
         </article>

@@ -30,9 +30,9 @@ export default function About() {
                         I've worked at established organizations across multiple industries, including:
                     </p>
                     <ul className="card-list">
-                        <li>Capital One</li>
-                        <li>TD Bank</li>
-                        <li>Toyota</li>
+                        <li>Capital One Financial Corporation</li>
+                        <li>TD Bank Group</li>
+                        <li>Toyota Motor Manufacturing Canada</li>
                         <li>University of Waterloo</li>
                     </ul>
                 </section>
@@ -53,7 +53,7 @@ export default function About() {
 
                 <footer className="card-footer">
                     <p className="margin-0">
-                        Last Updated: 11/9/2025
+                        Last Updated: 11/16/2025
                     </p>
                 </footer>
             </article>

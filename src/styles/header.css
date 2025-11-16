@@ -143,6 +143,7 @@
     opacity: 0;
     pointer-events: none;
     max-height: 0;
+    text-align: left;
   }
 
   /* vertical list */
@@ -150,16 +151,21 @@
     display: flex;
     flex-direction: column;
     gap: 0;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
   }
 
   .nav-menu li {
     border-bottom: 1px solid rgba(255,255,255,0.03);
+    text-align: left;
   }
   .nav-menu li:last-child { border-bottom: none; }
 
   .nav-menu a {
     display: block;
     padding: 12px 16px;
+    text-align: left; /* explicitly align link text to left */
   }
 
   /* open state */
@@ -175,5 +181,3 @@
     position: sticky;
   }
 }
-
-/* ...existing code... */
