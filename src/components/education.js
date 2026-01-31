@@ -21,7 +21,13 @@ export default function Education() {
                     <p>May 2025</p>
                 </section>
 
-                <section aria-labelledby="japanese-test">
+                <section aria-labelledby="japanese-test-n4">
+                    <h2 id="japanese-test" className="card-section">Japanese Language Proficiency Test N4</h2>
+                    <p>Japan Educational Exchanges and Services</p>
+                    <p>January 2026</p>
+                </section>
+
+                <section aria-labelledby="japanese-test-n5">
                     <h2 id="japanese-test" className="card-section">Japanese Language Proficiency Test N5</h2>
                     <p>Japan Educational Exchanges and Services</p>
                     <p>January 2025</p>
@@ -30,7 +36,7 @@ export default function Education() {
 
             <footer className="card-footer">
                 <p className="margin-0">
-                    Last Updated: 11/16/2025
+                    Last Updated: 1/31/2026
                 </p>
             </footer>
         </article>
